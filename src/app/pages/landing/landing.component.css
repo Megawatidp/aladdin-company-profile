@@ -1,0 +1,63 @@
+.btn-link {
+    color: #1360ef;
+    
+}
+
+.btn-primary {
+    padding: 0.6rem 1rem;
+    border-radius: 50px;
+}
+.clients-logo {
+    -webkit-filter: opacity(100%) grayscale(100%);
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+
+.dropdown-menu a:hover{
+    background: #eeb500 !important;
+}
+
+.item {
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+#about {
+    /* --animate-delay: 2s; */
+    animation-duration: 2s;
+}
+
+#about-img {
+    animation-duration: 2s;
+}
+
+#about-content {
+    animation-duration: 2s;
+}
+
+.clients {
+    animation-duration: 2s;
+}
+
+#partner {
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+
+#partner1 {
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+#partner2 {
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+#partner3 {
+    animation-duration: 1s;
+    animation-delay: 1s;
+}

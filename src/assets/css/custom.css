@@ -1,0 +1,112 @@
+.partnership:hover {
+    transform: scale(1.1);
+    transition: ease-in 1s;
+}
+
+
+.btn-yellow {
+    background: #eeb500;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+  }
+  .btn-yellow:hover {
+    background: #000;
+    color: #fff;
+    transition: linear 1s;
+  }
+
+  .btn-black {
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    color:#fff;
+  }
+
+  .btn-black:hover {
+    color:#000;
+  }
+
+  .btn-link {
+    background-color: transparent;
+    border: none;
+    color: #f4f4f4;
+  }
+
+  .btn-yellow-med {
+    background: #eeb500;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  .btn-yellow-med:hover {
+    background: #000;
+    color: #fff;
+    transition: linear 1s;
+  }
+    
+
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  display: flex;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #eeb500;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.contain{
+  display: flex !important;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#products i {
+  color: #538AB1;
+}
+
+.grid-item {
+  margin-bottom: 1.2rem !important;
+}
+
+.text-yellow {
+  color: #eeb500;
+}
